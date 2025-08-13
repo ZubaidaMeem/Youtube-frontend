@@ -99,11 +99,16 @@
 }
 
 .upload-icon,
+.upload-button,
 .youtube-apps-icon,
+.youtube-apps-button,
 .notifications-icon,
-.current-user-picture
+.notifications-button,
+.current-user-picture,
+.current-user-picture-button
 {
     height: 24px;
+    cursor: pointer;
 }
 
 .current-user-picture{

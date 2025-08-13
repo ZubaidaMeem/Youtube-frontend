@@ -1,8 +1,13 @@
-p{
+div,p{
     margin: 0;
     font-family: Roboto, Arial, sans-serif;
 }
 
 body{
     margin: 55px 0  0 72px;
+}
+
+button{
+    cursor: pointer;
+    margin: 0;
 }

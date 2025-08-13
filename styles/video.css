@@ -18,7 +18,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
-
+    padding: 25px;
 }
 
 /* .channel-picture{
@@ -31,7 +31,7 @@ background-color: gray;
 
 .video-title{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 20px;
     margin-bottom: 12px;
 }

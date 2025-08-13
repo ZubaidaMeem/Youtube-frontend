@@ -9,6 +9,7 @@
     right: 0;
     background-color: white;
     border-bottom: 1px solid rgb(222, 222, 222);
+    z-index: 100;
 }
 
 .left-section{
@@ -103,7 +104,7 @@
 .youtube-apps-icon,
 .youtube-apps-button,
 .notifications-icon,
-.notifications-button,
+.notifications-icon-container,
 .current-user-picture,
 .current-user-picture-button
 {
@@ -116,9 +117,21 @@
 }
 
 
+.notifications-icon-container{
+    position: relative ;
+}
 
+.notifications-count{
 
-
+    background-color: rgb(204, 0, 0);
+    color: white;
+    position: absolute;
+    font-size: 11px;
+    top: -2px;
+    right: -5px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+}
 
 
 

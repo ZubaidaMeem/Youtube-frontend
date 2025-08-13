@@ -44,6 +44,19 @@ background-color: gray;
 
 .thumbnail-row{
     margin-bottom: 5px;
+    position: relative;
+}
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px 4px 2px;
+    border-radius: 2px;
 }
 
 .video-author, .video-stats{

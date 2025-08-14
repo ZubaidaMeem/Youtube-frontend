@@ -2,21 +2,18 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 55px;
-    border-right: 1px solid rgb(222, 222, 222);
+    top: 54px;
+    /* border-right: 1px solid rgb(222, 222, 222); */
     width: 72px;
     display: flex;
     flex-direction: column;
-    padding: 5px 0 0 0;
+    padding: 6px 0 0 0;
+    z-index: 1000;
+    background-color: white;
 }
 
-.home-container,
-.explore-container,
-.subscriptions-container,
-.originals-container,
-.youtube-music-container,
-.library-container{
-    padding: 18px 0 18px 0;
+.sidebar-container{
+    height: 74px;
     width: 72px;
     display: flex;
     flex-direction: column;
@@ -25,21 +22,14 @@
     cursor: pointer;
 }
 
-.home-container:hover,
-.explore-container:hover,
-.subscriptions-container:hover,
-.originals-container:hover,
-.youtube-music-container:hover,
-.library-container:hover{
+
+.sidebar-container:hover{
     background-color: rgb(238,238,238);
 }
 
-.home-icon,
-.explore-icon,
-.subscriptions-icon,
-.originals-icon,
-.youtube-music-icon,
-.library-icon{
+
+.sidebar-container img
+{
     width: 25px
 }
 

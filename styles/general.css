@@ -4,7 +4,9 @@ div,p{
 }
 
 body{
-    margin: 55px 0  0 72px;
+    margin: 0;
+    padding: 80px 24px 0 96px ;
+    background-color: rgb(247, 244, 244);
 }
 
 button{

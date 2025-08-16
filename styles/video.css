@@ -41,6 +41,9 @@ background-color: gray;
 }
 
 
+
+
+
 .thumbnail-row{
     margin-bottom: 8px;
     position: relative;
@@ -66,4 +69,65 @@ background-color: gray;
 .video-author{
     margin-bottom: 4px;
 }
+
+
+.channel-picture{
+    position: relative;
+}
+
+.channel-picture:hover .overlay{
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 0px 10px rgba(0,0,0, 0.3);
+    width: fit-content;
+    z-index: 101;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+
+.profile-picture-overlay{
+    width: 60px;
+    height: 60px;
+    border-radius: 32.5px;
+}
+.channel-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.video-author-overlay{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.subscribers-count{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

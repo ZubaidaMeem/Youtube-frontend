@@ -39,8 +39,7 @@
 .search-bar{
     flex: 1;
     height: 40px;
-    border: 1px solid;
-    border-color: rgb(213, 209, 209);
+    border: 1px solid rgb(213, 209, 209);
     border-radius: 2px;
     font-size: 16px;
     padding-left: 10px;
